@@ -1,3 +1,4 @@
+/*
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <a                                      // JSX:- JS XML Syntax(HTML in JS)
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -20,6 +21,19 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;  */
+
+import './App.css';   //to import css
+import Header from './components/Header';
+function App(){
+     return (
+      <>
+       <Header />
+       <div>hello</div>
+      </>
+     )
 }
 
 export default App;
